@@ -1,100 +1,33 @@
-# Saliency Prototype for RGB-D and RGB-T Salient Object Detection（ACM MM2023）
-Official implementation of ["Saliency Prototype for RGB-D and RGB-T Salient Object Detection"], Zihao Zhang, Jie Wang, Yahong Han
+SDLK-Net: Enhanced Squeezed Directional Large Kernel Network for Salient Object Detection
+Official implementation of the paper:
+"SDLK-Net: Enhanced Squeezed Directional Large Kernel Multi-Scale Multi-modal Fusion Network for Salient Object Detection"
+Lingyu Yan, Ting Zhou, Rong Gao, Zengmao Wang, Zhiwei Ye, Xinyun Wu
 
-  ![Image text](https://github.com/ZZ2490/SPNet/blob/main/f2.png)
-Overall architecture of the Saliency Prototype Network
-## Visual comparison results with other RGB-D models.
- ![Image text](https://github.com/ZZ2490/SPNet/blob/main/f5.png)
-## Environment
-### Requirements
-#### Linux with Python ≥ 3.8
-#### CUDA 11
-#### The provided environment is suggested for reproducing our results, similar configurations may also work.
-### Quick Start
-```
-    conda create -n Spnet python=3.9.1
-    conda activate Spnet
-    git clone git@github.com:ZZ2490/SPNet.git
-    python train_rgbd.py
-```
-## RGBD Result Saliency Maps
-链接：https://pan.baidu.com/s/1Fv34jaMj6Xq6lb_NoygoLA 
-提取码：2490
-## RGBT Result Saliency Maps
-链接：https://pan.baidu.com/s/1rlMeizCsLzZ_0tmnjxZxUQ 
-提取码：2490
-## Evaluation Code
-链接：https://pan.baidu.com/s/1qLRw0tlVoCp95zVu4sn2tw 
-提取码：2490
+Overview
+A novel network for RGB-D and RGB-T salient object detection, featuring:
 
-```
-# Saliency Prototype for RGB-D and RGB-T Salient Object Detection（ACM MM2023）
-Official implementation of ["Saliency Prototype for RGB-D and RGB-T Salient Object Detection"], Zihao Zhang, Jie Wang, Yahong Han
+Squeezed Large Kernel Edge-Enhanced Fusion (SLKEF)
 
+Adaptive Extraction Multi-path Matching (AEMM)
 
-  ![Image text](https://github.com/ZZ2490/SPNet/blob/main/f2.png)
-Overall architecture of the Saliency Prototype Network
-## Visual comparison results with other RGB-D models.
- ![Image text](https://github.com/ZZ2490/SPNet/blob/main/f5.png)
-## Environment
-### Requirements
-#### Linux with Python ≥ 3.8
-#### CUDA 11
-#### The provided environment is suggested for reproducing our results, similar configurations may also work.
-### Quick Start
-```
-    conda create -n Spnet python=3.9.1
-    conda activate Spnet
-    git clone git@github.com:ZZ2490/SPNet.git
-    python train_rgbd.py
-```
-## RGBD Result Saliency Maps
-链接：https://pan.baidu.com/s/1Fv34jaMj6Xq6lb_NoygoLA 
-提取码：2490
-## RGBT Result Saliency Maps
-链接：https://pan.baidu.com/s/1rlMeizCsLzZ_0tmnjxZxUQ 
-提取码：2490
-## Evaluation Code
-链接：https:pan.baidu.com/s/1qLRw0tlVoCp95zVu4sn2tw 
-提取码：2490
+Multi-Scale Filter Gate Integration (MSFGI)
 
+Quick Start
+Requirements
+Python ≥ 3.8
 
-```
- @Article{  SPNet,
-    author    = {Zihao Zhang, Jie Wang, Yahong Han},
-    title     = {Saliency Prototype for RGB-D and RGB-T Salient Object Detection},
-    journal   = {ACM International Conference on Multimedia},
-    year      = {2023},
-    doi       = {}
-    }
- ```# Saliency Prototype for RGB-D and RGB-T Salient Object Detection（ACM MM2023）
-Official implementation of ["Saliency Prototype for RGB-D and RGB-T Salient Object Detection"], Zihao Zhang, Jie Wang, Yahong Han
+CUDA 11
 
+PyTorch
 
-  ![Image text](https://github.com/ZZ2490/SPNet/blob/main/f2.png)
-Overall architecture of the Saliency Prototype Network
-## Visual comparison results with other RGB-D models.
- ![Image text](https://github.com/ZZ2490/SPNet/blob/main/f5.png)
-## Environment
-### Requirements
-#### Linux with Python ≥ 3.8
-#### CUDA 11
-#### The provided environment is suggested for reproducing our results, similar configurations may also work.
-### Quick Start
-```
-    conda create -n Spnet python=3.9.1
-    conda activate Spnet
-    git clone git@github.com:ZZ2490/SPNet.git
-    python train_rgbd.py
-```
-## RGBD Result Saliency Maps
-链接：https://pan.baidu.com/s/1Fv34jaMj6Xq6lb_NoygoLA 
-提取码：2490
-## RGBT Result Saliency Maps
-链接：https://pan.baidu.com/s/1rlMeizCsLzZ_0tmnjxZxUQ 
-提取码：2490
-## Evaluation Code
-链接：https:pan.baidu.com/s/1qLRw0tlVoCp95zVu4sn2tw 
-提取码：2490
-
-
+Installation
+bash
+conda create -n sdlknet python=3.9
+conda activate sdlknet
+git clone [repository_url]
+cd SDLK-Net
+Training
+bash
+python train.py
+Results
+Pre-computed saliency maps and evaluation code available upon request from the corresponding author.
